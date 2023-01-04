@@ -55,7 +55,7 @@ server <- function(input, output, session) {
   
   # Page 1 ----
   response <- reactive({
-    api_key <- "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"
+    api_key <- "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     
     text_prompt <- input$ask_something
     
